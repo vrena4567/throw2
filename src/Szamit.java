@@ -1,5 +1,5 @@
 public class Szamit {
-    public double duplazz( double szam) throws NegativSzamException {
+    public double duplazz(double szam) throws NegativSzamException {
         if (szam < 0) {
             throw new NegativSzamException("Negatív szám");
         } else {
